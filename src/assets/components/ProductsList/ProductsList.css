@@ -8,16 +8,28 @@
     border: 1px solid mediumseagreen;
 }
 
-.Product  {
+.product-lorem, .Product, .image-product, .Product p {
+    margin: 1rem;
+}
+
+.product {
     display: flex;
     margin: 1rem;
 }
 
-.image-product {
-    margin: 1rem;
+.Product li {
+    border: 1px solid lightgreen;
+}
+
+.Product p {
+    font-weight: bold;
+    font-size: 1.5rem ;
+    padding: 1rem;
+    float: right;
 }
 
 .name {
     font-weight: bold;
     color: #545454;
+    margin: 1rem;
 }
