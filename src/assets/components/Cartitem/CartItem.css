@@ -1,0 +1,38 @@
+.ItemsList {
+    border: 1px solid blueviolet;
+    width: 30rem;
+    min-height: 80vh;
+}
+
+.ItemsList h1 {
+    text-align: center;
+}
+
+.delete {
+    margin-top: 27rem;
+
+}
+
+.delete button {
+    font-size: 1.2rem;
+    width: 11vw;
+    height: 5vh;
+    margin-left: 16rem;
+}
+
+.image-cart {
+    width: 0.8vw;
+}
+
+.item-list {
+    list-style-type: none;
+}
+
+.cart {
+    border: 1px solid orange;
+    margin: 1rem;
+}
+
+.quantity {
+    float: right;
+}

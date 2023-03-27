@@ -21,11 +21,41 @@
     border: 1px solid lightgreen;
 }
 
+
 .Product p {
     font-weight: bold;
     font-size: 1.5rem ;
     padding: 1rem;
     float: right;
+}
+
+.price {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choice {
+    width: 5vw;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+
+.less, .more {
+    display: flex;
+    justify-content: center;
+}
+
+.less {
+    background-color: lightgrey;
+    width: 1vw;
+}
+
+.more {
+    width: 1vw;
+    background-color: #61dafb;
 }
 
 .name {

@@ -50,7 +50,14 @@ export const ProductsList = () => {
                             <img className='image-product' src={product.product.image} alt=""/>
                             <div>
                                 <h1 className='name'>{product.product.name}</h1><span className='product-lorem'>{product.product.description}</span>
-                                <p>$ {product.product.price}</p>
+                              <div className='price'>
+                                  <div className='choice'>
+                                      <div className='less'>-</div>
+                                      <span>10</span>
+                                      <div className='more'>+</div>
+                                  </div>
+                                  <p>$ {product.product.price}</p>
+                              </div>
                             </div>
                         </li>
                     )}
