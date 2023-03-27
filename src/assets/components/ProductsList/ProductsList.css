@@ -1,0 +1,23 @@
+.ProductsList {
+    border: 1px solid blue;
+    width: 50vw;
+}
+
+.products-list {
+    list-style-type: none;
+    border: 1px solid mediumseagreen;
+}
+
+.Product  {
+    display: flex;
+    margin: 1rem;
+}
+
+.image-product {
+    margin: 1rem;
+}
+
+.name {
+    font-weight: bold;
+    color: #545454;
+}
